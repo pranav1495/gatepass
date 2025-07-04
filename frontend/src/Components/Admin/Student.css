@@ -1,0 +1,21 @@
+.student-leave-container {
+    padding: 20px;
+  }
+  
+  .student-leave-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+  }
+  
+  .student-leave-table th, .student-leave-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  .student-leave-table th {
+    background-color: #f2f2f2;
+  }
+  

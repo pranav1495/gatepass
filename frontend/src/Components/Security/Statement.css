@@ -1,0 +1,93 @@
+.statement {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.date-filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.date-filters label {
+    display: flex;
+    background-color:black;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+
+.date-filters input[type="date"] {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.date-filters button {
+    padding: 10px 20px;
+    background-color: #4e4e4e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.date-filters button:hover {
+    background-color: #45a049;
+}
+
+.statement-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.statement-table th, .statement-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.statement-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.statement-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.statement-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.loading, .error {
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+}
+@media print {
+    .date-filters,
+    button {
+        display: none;
+    }
+
+    .statement-table {
+        border: 2px solid rgb(146, 146, 146);
+    }
+
+    .statement-table th,
+    .statement-table td {
+        border: 2px solid rgb(150, 150, 150);
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 12pt;
+    }
+}

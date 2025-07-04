@@ -1,0 +1,220 @@
+.feedback-form {
+    font-family: 'Chakra Petch', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('C:\Users\Public\gatepass\frontend\public\teachers.jpg');
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  textarea,
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  h2{
+    font-weight: bold;
+    color: white;
+    background-color: #515151;
+  }
+  
+  button[type="submit"],
+  button[type="button"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .previous-comments {
+    margin-top: 20px;
+  }
+  
+  .previous-comments h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .comment {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .user-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .user-info .user-name {
+    font-weight: bold;
+  }
+  
+  .user-info .user-email {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .comment-text {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .satisfaction-text,
+  .timestamp-text,
+  .average-rating-text {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .star-rating {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .star {
+    cursor: pointer;
+    font-size: 20px;
+    color: #ccc;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  
+  .like-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .love-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+    background: none;
+    border: none;
+  }
+  
+  .menu-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: none; /* initially hide the dropdown */
+  }
+  
+  .menu-container:hover .dropdown-menu {
+    display: block; 
+  }
+  
+  
+  .edit-button{
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 14px;
+    color: #000000;
+  }
+  .delete-button {
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  .edit-button:hover{
+    background-color: #e32a2a; 
+  }
+  .delete-button:hover {
+    background-color: #ee0a0a;
+  }
+  
+  .scroll-button {
+    position: fixed;
+    right: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .scroll-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .scroll-button:nth-child(1) {
+    bottom: 70px;
+  }
+  
+  .scroll-button:nth-child(2) {
+    bottom: 10px;
+  }
+  

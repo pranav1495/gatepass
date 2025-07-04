@@ -1,0 +1,129 @@
+/* General styles */
+.visitor-details-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.visitor-info, .visitor-form {
+    margin-bottom: 20px;
+}
+.visitor-info.form-group5{
+    align-self: center;
+    position: absolute;
+  width: 900px;
+  text-align: left;
+  z-index: 100;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+/* Button styles */
+.edit-button11, .back-button, .print-button, .save-button, .cancel-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Same font size for all buttons */
+    font-weight: bold; /* Make text bold for better readability */
+    text-align: center; /* Center align text */
+    text-transform: uppercase; /* Uppercase text for uniformity */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.edit-button11 {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.back-button11 {
+    background-color: #f44336;
+    color: white;
+}
+
+.print-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Hover effects */
+.edit-button11:hover {
+    background-color: #45a049; /* Slightly darker green */
+}
+
+.back-button11:hover {
+    background-color: #d32f2f; /* Slightly darker red */
+}
+
+.print-button:hover {
+    background-color: #1e88e5; 
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+.cancel-button:hover {
+    background-color: #d32f2f;
+}
+@media print {
+    body {
+        margin: 0;
+        font-size: 10pt; 
+    }
+
+    .visitor-details-container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        margin: 0;
+        padding: 0;
+        page-break-after: avoid;
+    }
+
+    .visitor-info, .visitor-form {
+        margin: 0;
+        padding: 0;
+    }
+
+    .button-group {
+        display: none; /* Hide buttons during printing */
+    }
+
+    .edit-button11, .back-button, .print-button, .save-button, .cancel-button {
+        display: none; /* Hide buttons during printing */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0;
+    }
+
+    th, td {
+        border: 1px solid #000;
+        padding: 4px;
+        text-align: left;
+    }
+}

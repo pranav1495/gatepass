@@ -1,0 +1,64 @@
+/* Contact.css */
+
+.blog-section333 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+}
+
+.contact-container {
+    flex: 1;
+    padding-right: 20px;
+    background-color: aliceblue;
+}
+
+.contact-container h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.contact-container strong {
+    font-weight: bold;
+}
+
+.contact-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for Google Maps */
+.gmap {
+    flex: 1; /* Take up remaining space */
+    height: 400px; /* Adjust height as needed */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.icon {
+    margin-right: 10px;
+    width: 20px; 
+}
+
+.contact-info {
+    vertical-align: middle; 
+    font-size: 16px;
+    line-height: 1.6; 
+}

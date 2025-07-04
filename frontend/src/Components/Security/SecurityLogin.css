@@ -1,0 +1,146 @@
+.App1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Adjusted height to full viewport height */
+    background-image: url('/public/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.App1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.form-container767 {
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.86);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    z-index: 1;
+}
+
+.form-container767 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-container767 table {
+    width: 100%;
+}
+
+.form-container767 td {
+    padding: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px; /* Adjusted padding for better input field spacing */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-group .form-control {
+    border-radius: 5px; /* Adjusted border-radius for input fields in input-group */
+}
+
+.input-group .btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px 12px; /* Smaller padding */
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px; /* Adjusted font size */
+    line-height: 1; 
+}
+
+.input-group .btn:hover {
+    background: #0056b3; /* Example hover background color */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Added margin-top for spacing */
+}
+
+.button-container .btn {
+    width: 48%; /* Adjusted width to ensure gap between buttons */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.button-container .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.button-container .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+
+.button-container .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.booking-button {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking-button:hover {
+    background-color: #0056b3;
+}

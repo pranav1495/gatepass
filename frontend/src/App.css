@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #ffffff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.marquee-container {
+  background-color: #333;
+  white-space: nowrap;
+}
+
+.marquee {
+  padding-left: 100%;
+  animation: marquee 6s linear infinite;
+  color: white;
+}
+
+@keyframes marquee {
+  from { transform: translateX(15%); }
+  to { transform: translateX(-120%); }
+
+}
+
+.card-footer {
+  background-color: #0e0e0e;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.credits {
+  margin-top: 10px;
+  color: #666;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #007bff;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0056b3;
+}
+
+.blog-section {
+  background-image: url('C:\Users\Public\gatepass\frontend\public\clg.jpg');
+  background-size: cover;
+  background-position: fill;
+  color: white;
+  padding: 20px;
+}
+
+.blog-section h4 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.blog-section p {
+  margin-bottom: 0;
+  color:white;
+  text-align: center;
+}
+
+.blog-section p a{
+  color: violet;
+  text-decoration: none;
+}
+
+.blog-section p a:hover{
+  text-decoration: none;
+}
+
+
+.contact-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+
+.card.night-mode {
+  background-color: #333; /* Dark grey background */
+  color: #ccc; /* Light grey text */
+}
+
+

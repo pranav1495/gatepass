@@ -1,0 +1,98 @@
+.leave-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #686868;
+    border-radius: 10px;/* Adjusted background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Increased padding for better spacing */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .leave-form-header h2 {
+    margin: 0;
+    background-color: white;
+    color: black;
+  }
+  .leave-form-header1 h5{
+    font-size: small;
+  }
+  
+  .leave-form-container form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .leave-form-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .leave-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+  }
+  
+  .leave-form-container select,
+  .leave-form-container input,
+  .leave-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #737373;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+  }
+  
+  .leave-form-container input[type="date"] {
+    font-family: inherit;
+  }
+  
+  .leave-form-container textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .leave-form-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: -50px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .leave-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .leave-form-container .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .leave-form-container .btn-secondary {
+    background-color: #000000;
+  }
+  
+  .leave-form-container .small-button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  
+  

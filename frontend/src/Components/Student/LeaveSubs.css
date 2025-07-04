@@ -1,0 +1,36 @@
+.leave-subs-header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.leave-subs-content {
+  margin-bottom: 20px;
+}
+
+.leave-subs-list {
+  list-style: none;
+  padding: 0;
+}
+
+.leave-subs-list li {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.leave-subs-button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
